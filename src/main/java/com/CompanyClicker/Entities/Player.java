@@ -17,8 +17,10 @@ public class Player {
 
     @NotNull
     private String login;
+
     @NotNull
     private String pass;
+
     @NotNull
     private Long score;
 }
