@@ -16,4 +16,14 @@ public class EnterController {
 
         return "index";
     }
+
+    @GetMapping("/login")
+    public String getLogin() {
+        return "login";
+    }
+
+    @GetMapping("/registration")
+    public String getRegistration() {
+        return "registration";
+    }
 }
