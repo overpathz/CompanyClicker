@@ -1,13 +1,13 @@
 package com.CompanyClicker.Services;
 
-import com.CompanyClicker.Repositories.PlayRepo;
+import com.CompanyClicker.Repositories.PlayerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PlayService {
+public class PlayerService {
     @Autowired
-    private PlayRepo playRepo;
+    private PlayerRepo playRepo;
 
 
 }
